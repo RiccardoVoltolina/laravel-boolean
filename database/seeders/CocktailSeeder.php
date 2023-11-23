@@ -30,7 +30,7 @@ class CocktailSeeder extends Seeder
 
                 "instructions" => "Strofina il bordo del bicchiere con la fetta di lime per far aderire il sale.\r\nAvere cura di inumidire solo il bordo esterno e cospargere di sale.\r\nIl sale dovrebbe presentarsi alle labbra del bevitore e non mescolarsi mai al cocktail.\r\nShakerare gli altri ingredienti con ghiaccio, quindi versarli delicatamente nel bicchiere.",
 
-                "drinkThumb" => "https=>//www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+                "drinkThumb" => "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
 
                 'ingredients' => [
                     [
@@ -65,7 +65,7 @@ class CocktailSeeder extends Seeder
 
                 "instructions" => " Metti tutti gli ingredienti in un frullatore e frulla fino a che non diventa liscio.",
 
-                "drinkThumb" => "https=>//www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
+                "drinkThumb" => "https://www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
 
                 'ingredients' => [
                     [
@@ -101,7 +101,7 @@ class CocktailSeeder extends Seeder
 
                 "instructions" => "Shakerare e filtrare in una coppetta da cocktail ghiacciata.",
 
-                "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
+                "drinkThumb" => "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
 
                 'ingredients' => [
                     [
@@ -132,7 +132,7 @@ class CocktailSeeder extends Seeder
 
                 "instructions" => "Shakerare e filtrare in una coppetta da cocktail ghiacciata.",
 
-                "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
+                "drinkThumb" => "https://www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
 
                 'ingredients' => [
                     [
@@ -164,7 +164,7 @@ class CocktailSeeder extends Seeder
 
                 "instructions" => "Strofinare il bordo del bicchiere da cocktail con succo di limone e immergerlo nel sale. Shakerare grappa, tequila, triple sec, succo di limone e fragole con ghiaccio, filtrare nel bicchiere bordato di sale e servire.",
 
-                "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
+                "drinkThumb" => "https://www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
 
                 'ingredients' => [
                     [
@@ -209,7 +209,7 @@ class CocktailSeeder extends Seeder
 
                 "instructions" => "In un barattolo di vetro pestare l'anguria e 5 foglie di menta insieme, filtrare il contenuto in un bicchiere. Quindi aggiungere il succo di pompelmo, il succo di mezzo lime, la tequila e un po 'di ghiaccio. Metti un coperchio sul barattolo e agita. Versare in un bicchiere e aggiungere altro ghiaccio. Guarnire con menta fresca e una fettina di anguria.",
 
-                "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg",
+                "drinkThumb" => "https://www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg",
 
                 
 

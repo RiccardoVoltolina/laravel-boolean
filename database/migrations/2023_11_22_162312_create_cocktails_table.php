@@ -18,9 +18,9 @@ return new class extends Migration
             $table->string('type');
             $table->boolean('alcoholic');
             $table->string('glass');
-            $table->string('instructions');
+            $table->text('instructions');
             $table->string('drinkThumb');
-            $table->json('ingredients')->nullable();
+            $table->json('ingredients');
             $table->timestamps();
         });
     }
