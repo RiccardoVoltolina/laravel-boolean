@@ -12,8 +12,14 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('cocktails', function (Blueprint $table) {
+
             $table->id();
             $table->string('name');
+            $table->string('type');
+            $table->boolean('alcoholic');
+            $table->string('glass');
+            $table->string('instructions');
+            $table->string('drinkThumb');
             $table->json('ingredients')->nullable();
             $table->timestamps();
         });

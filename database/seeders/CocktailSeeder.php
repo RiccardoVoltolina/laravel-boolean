@@ -16,19 +16,19 @@ class CocktailSeeder extends Seeder
     {
 
 
-        $drinks = [
+        $cocktails = [
 
             [
                 "name" => "Margarita",
 
                 "type" => "IBA,ContemporaryClassic",
 
-                "Alcoholic" => "Alcoholic",
+                "alcoholic" => true,
 
-                "Glass" => "Cocktail glass",
+                "glass" => "Cocktail glass",
 
 
-                "InstructionsIT" => "Strofina il bordo del bicchiere con la fetta di lime per far aderire il sale.\r\nAvere cura di inumidire solo il bordo esterno e cospargere di sale.\r\nIl sale dovrebbe presentarsi alle labbra del bevitore e non mescolarsi mai al cocktail.\r\nShakerare gli altri ingredienti con ghiaccio, quindi versarli delicatamente nel bicchiere.",
+                "instructions" => "Strofina il bordo del bicchiere con la fetta di lime per far aderire il sale.\r\nAvere cura di inumidire solo il bordo esterno e cospargere di sale.\r\nIl sale dovrebbe presentarsi alle labbra del bevitore e non mescolarsi mai al cocktail.\r\nShakerare gli altri ingredienti con ghiaccio, quindi versarli delicatamente nel bicchiere.",
 
                 "drinkThumb" => "https=>//www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
 
@@ -56,14 +56,14 @@ class CocktailSeeder extends Seeder
             [
                 "name" => "Whitecap Margarita",
 
-                "type" => null,
+                "type" => "IBA,NewEra",
 
-                "Alcoholic" => "Alcoholic",
+                "alcoholic" => true,
 
-                "Glass" => "Margarita/Coupette glass",
+                "glass" => "Margarita/Coupette glass",
 
 
-                "InstructionsIT" => " Metti tutti gli ingredienti in un frullatore e frulla fino a che non diventa liscio.",
+                "instructions" => " Metti tutti gli ingredienti in un frullatore e frulla fino a che non diventa liscio.",
 
                 "drinkThumb" => "https=>//www.thecocktaildb.com/images/media/drink/srpxxp1441209622.jpg",
 
@@ -95,11 +95,11 @@ class CocktailSeeder extends Seeder
 
                 "type" => "IBA,NewEra",
 
-                "alcoholic" => "Alcoholic",
+                "alcoholic" => true,
 
                 "glass" => "Old-Fashioned glas",
 
-                "instructionsIT" => "Shakerare e filtrare in una coppetta da cocktail ghiacciata.",
+                "instructions" => "Shakerare e filtrare in una coppetta da cocktail ghiacciata.",
 
                 "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
 
@@ -126,11 +126,11 @@ class CocktailSeeder extends Seeder
 
                 "type" => "IBA,NewEra",
 
-                "alcoholic" => "Alcoholic",
+                "alcoholic" => true,
 
                 "glass" => "Old-Fashioned glas",
 
-                "instructionsIT" => "Shakerare e filtrare in una coppetta da cocktail ghiacciata.",
+                "instructions" => "Shakerare e filtrare in una coppetta da cocktail ghiacciata.",
 
                 "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/loezxn1504373874.jpg",
 
@@ -158,11 +158,11 @@ class CocktailSeeder extends Seeder
 
                 "type" => "IBA,NewEra",
 
-                "alcoholic" => "Alcoholic",
+                "alcoholic" => true,
 
-                "strGlass" => "Cocktail glass",
+                "glass" => "Cocktail glass",
 
-                "instructionsIT" => "Strofinare il bordo del bicchiere da cocktail con succo di limone e immergerlo nel sale. Shakerare grappa, tequila, triple sec, succo di limone e fragole con ghiaccio, filtrare nel bicchiere bordato di sale e servire.",
+                "instructions" => "Strofinare il bordo del bicchiere da cocktail con succo di limone e immergerlo nel sale. Shakerare grappa, tequila, triple sec, succo di limone e fragole con ghiaccio, filtrare nel bicchiere bordato di sale e servire.",
 
                 "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
 
@@ -203,27 +203,15 @@ class CocktailSeeder extends Seeder
 
                 "type" => "IBA,NewEra",
 
-                "alcoholic" => "Alcoholic",
+                "alcoholic" => true,
 
-                "strGlass" => "Collins glass",
+                "glass" => "Collins glass",
 
-                "strInstructionsIT" => "In un barattolo di vetro pestare l'anguria e 5 foglie di menta insieme, filtrare il contenuto in un bicchiere. Quindi aggiungere il succo di pompelmo, il succo di mezzo lime, la tequila e un po 'di ghiaccio. Metti un coperchio sul barattolo e agita. Versare in un bicchiere e aggiungere altro ghiaccio. Guarnire con menta fresca e una fettina di anguria.",
+                "instructions" => "In un barattolo di vetro pestare l'anguria e 5 foglie di menta insieme, filtrare il contenuto in un bicchiere. Quindi aggiungere il succo di pompelmo, il succo di mezzo lime, la tequila e un po 'di ghiaccio. Metti un coperchio sul barattolo e agita. Versare in un bicchiere e aggiungere altro ghiaccio. Guarnire con menta fresca e una fettina di anguria.",
 
                 "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/dztcv51598717861.jpg",
 
-                'ingredients' => [
-
-                    "name" => "Strawberry Margarita",
-
-                    "type" => "IBA,NewEra",
-
-                    "alcoholic" => "Alcoholic",
-
-                    "strGlass" => "Cocktail glass",
-
-                    "instructionsIT" => "Strofinare il bordo del bicchiere da cocktail con succo di limone e immergerlo nel sale. Shakerare grappa, tequila, triple sec, succo di limone e fragole con ghiaccio, filtrare nel bicchiere bordato di sale e servire.",
-
-                    "drinkThumb" => "https =>//www.thecocktaildb.com/images/media/drink/tqyrpw1439905311.jpg",
+                
 
                     'ingredients' => [
                         [
@@ -259,13 +247,29 @@ class CocktailSeeder extends Seeder
 
                     ],
 
-                ],
 
             ],
         ];
 
-        foreach ($drinks as $drink) {
-            Cocktail::create($drink);
+        foreach ($cocktails as $cocktailData) {
+
+            $newCocktail = new Cocktail();
+
+            $newCocktail->name = $cocktailData['name'];
+
+            $newCocktail->type = $cocktailData['type'];
+
+            $newCocktail->alcoholic = $cocktailData['alcoholic'];
+
+            $newCocktail->glass = $cocktailData['glass'];
+
+            $newCocktail->instructions = $cocktailData['instructions'];
+
+            $newCocktail->drinkThumb = $cocktailData['drinkThumb'];
+
+            $newCocktail->ingredients = $cocktailData['ingredients'];
+
+            $newCocktail->save();
         }
     }
 }
