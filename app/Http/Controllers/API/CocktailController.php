@@ -26,7 +26,7 @@ class CocktailController extends Controller
     public function index (){
         return response()->json([
             'status' => 'Success',
-            'result' => Cocktail::all()->paginate(6),
+            'result' => Cocktail::all(),
         ]);
     }
 }
